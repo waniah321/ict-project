@@ -1,0 +1,196 @@
+<html>
+  <head>
+    <title>Reservation Form</title>
+    <style>
+           *{
+            margin: 0px;
+            padding: 0px;
+          line-height: 40px;
+        }
+
+        .one{
+  position: absolute;
+}
+.listitem{
+    display: inline-block;
+    list-style: none;
+   margin-right: 6px;
+   
+}
+.listitem  a{
+    text-decoration: none;
+    color: white;
+
+}
+.listitem  a:hover{
+    display: inline-block;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    background-color: #669bbc;
+}
+
+      .top{
+    background-image: url("D:/projectsBSCS 1/images/project pics/bg.png");
+    border: 2px inset #780000;
+    width: 100%;
+    height: 200px;
+}
+.top h1{
+  color: #cfbaf0;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.flex{
+    display: flex;
+    border: 4px groove maroon;
+    width: 100%;
+    height: 200px;
+}
+.image{
+    size: contain;
+width: 400px;
+}
+
+
+
+.footer{
+    background-image: url("D:/projectsBSCS 1/images/project pics/capture.png");
+    border: 2px inset #780000;
+    width: 100%;
+    height: 150px;
+    margin-top: 190px;
+}
+ .footer img{
+  float: right;
+    margin-top: 120px;
+    height: 30px;
+    width: 30px;
+display: inline-block;
+transition: all;
+ }  
+ .footer img:hover{
+    background: rgba(255, 255, 255, 0.08);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.63);
+transform:scale(1.5);
+
+ }
+ .home{
+position: absolute;
+/* position: relative; */
+margin-top: 250px;
+float: right;
+margin-right: 100px;
+border: 6px groove #cfbaf0 ;
+width: fit-content;
+height: 35px;
+background-color: #e0fbfc;
+}
+.home a{
+    text-decoration: none;
+    font-size: larger;
+    text-align: center;
+    padding: 6px;
+}
+.home a:hover{
+    background-color: #f4acb7;
+}
+
+@media only screen and(min-width:2005px){
+  .image{
+    width:fit-content;
+  }
+}
+
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="one">
+      <ul>
+      <li class="listitem"><a href="index.html">home</a></li>
+  <li class="listitem"><a href="aboutus.html">about us</a></li>
+  <li class="listitem"><a href="services.html">services</a></li>
+  <li class="listitem"><a href="contact.html">contact</a></li>
+  <li class="listitem"><a href="reservation.html">reservations</a></li>
+</ul>
+</div>   
+</nav>
+    <div class="top">
+      <h1>Reservation Form</h1>
+  </div>
+
+  <div class="flex">
+    <img src="D:/projectsBSCS 1/images/project pics/butterfly.jpeg" class="image">
+  <img src="D:/projectsBSCS 1/images/project pics/cam.jpg" class="image">
+  <img src="D:/projectsBSCS 1/images/project pics/paris.png" class="image">
+  <img src="D:/projectsBSCS 1/images/project pics/studio2.jpeg"  class="image">
+  <img src="D:/projectsBSCS 1/images/project pics/rose.jpg" class="image">
+   </div>
+
+
+    <h1>Reservation Form</h1>
+   
+    <label>Enter your First Name:</label>
+    <input type="text" maxlength="16" placeholder="First Name" required>
+    </br></br>
+    <label>Enter your Last Name:</label>
+    <input type="text" maxlength="16" placeholder="Last Name" required>
+    </br></br>
+    <label>Enter your Phone Number:</label>
+    <input type="number" maxlength="12" placeholder="Phone Number" required>
+    </br></br>
+    <label>Enter your Email Address:</label>
+    <input type="text" maxlength="26" placeholder="Email Address" required>
+    </br></br>
+    <label>Select the date for which you are booking for:</label>
+    <input type="date" required>
+    </br></br>
+    <label>Tell about the title of the Event:</label>
+    <input type="text" maxlength="12" placeholder="Event Title" required>
+    </br></br>
+    <label>Select the Venue of the event:</label>
+    </br>
+    <input type="radio" >Outdoor
+    <input type="radio">Indoor
+    </br></br>
+    <label>Select the type of Event:</label>
+    </br>
+    <input type="checkbox" >Official Event
+    <input type="checkbox">Family Event
+    <input type="checkbox">Single Person Shoot
+    </br></br>
+    <label>Tell about the Requirements you need in the Event:</label>
+    <input type="text" maxlength="120" placeholder="Requirements"  required>
+<br>
+
+<button type="submit" value="submit" onclick="submission()">submit</button>
+
+    <div class="home">
+      <a href="index.html"> go back</a>
+    </div>
+    <div class="footer">
+    <img src="D:/projectsBSCS 1/images/project pics/insta.png" alt="">
+    <img src="D:/projectsBSCS 1/images/project pics/facebook.png" alt="">
+    <img src="D:/projectsBSCS 1/images/project pics/twitter.png" alt="">
+    </div>
+
+<script>
+  function submission(){
+    alert("Congratulatuins Your reservations have been completed.");
+  }
+</script>
+
+
+  </body>
+</html>

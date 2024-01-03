@@ -1,0 +1,274 @@
+body{
+    
+    background-image: url("D:/projectsBSCS 1/images/project pics/paris2.png");
+}
+.one{
+  position: absolute;
+}
+.listitem{
+    display: inline-block;
+    list-style: none;
+   margin-right: 6px;
+   
+}
+.listitem  a{
+    text-decoration: none;
+    color: white;
+
+}
+.listitem  a:hover{
+    display: inline-block;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    background-color: #669bbc;
+}
+
+h1{
+    color:#669bbc;
+    
+   font-family: 'Times New Roman', Times, serif;
+   font-size :85px;
+   text-align:left;
+   margin-left: 20px; 
+   margin-top: 250px;
+   margin-bottom: 5px;
+   animation-name: main;
+   animation-duration: 2s;
+   animation-delay: 1s;
+   animation-iteration-count: infinite;
+}
+@keyframes main {
+    from{
+        transition: trasnform;
+        transition-delay:ease-in-out ;
+    }
+    to{
+        transform: scaleY(1.1);
+    }
+}
+   h2{
+    color: #fdf0d5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size :75px;
+    text-align:left;
+    margin-top: 0px;
+    margin-left: 80px; 
+    animation-name: main;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+   }
+   @keyframes main {
+    from{
+        transition: trasnform;
+        transition-delay:ease-in-out ;
+    }
+    to{
+        transform: scaleY(1.1);
+    }
+}
+
+
+   .glass{
+    background: rgba(255, 255, 255, 0.02);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.1px);
+-webkit-backdrop-filter: blur(2.1px);
+border: 1px solid rgba(255, 255, 255, 0.19);
+margin-top: 70px;
+width: 100%;
+position:absolute;
+}
+ 
+@media only screen and(max-width:600px){
+h1{
+    font-size: small;
+}
+h2{
+    font-size: small;
+}
+}
+
+@media only screen and(min-width:601px)and(max-width:900px){
+    body{
+    
+        background-image: url("D:/projectsBSCS 1/images/project pics/paris2.png");
+    }
+    .one{
+      position: absolute;
+    }
+    .listitem{
+        display: inline-block;
+        list-style: none;
+       margin-right: 6px;
+       
+    }
+    .listitem  a{
+        text-decoration: none;
+        color: white;
+    
+    }
+    .listitem  a:hover{
+        display: inline-block;
+        transform: scale(1.1);
+        transition-duration: 1s;
+        background-color: #669bbc;
+    }
+    
+    h1{
+        color:#669bbc;
+        
+       font-family: 'Times New Roman', Times, serif;
+       font-size :85px;
+       text-align:left;
+       margin-left: 20px; 
+       margin-top: 250px;
+       margin-bottom: 5px;
+       animation-name: main;
+       animation-duration: 2s;
+       animation-delay: 1s;
+       animation-iteration-count: infinite;
+    }
+    @keyframes main {
+        from{
+            transition: trasnform;
+            transition-delay:ease-in-out ;
+        }
+        to{
+            transform: scaleY(1.1);
+        }
+    }
+       h2{
+        color: #fdf0d5;
+        font-family: 'Times New Roman', Times, serif;
+        font-size :75px;
+        text-align:left;
+        margin-top: 0px;
+        margin-left: 80px; 
+        animation-name: main;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+       }
+       @keyframes main {
+        from{
+            transition: trasnform;
+            transition-delay:ease-in-out ;
+        }
+        to{
+            transform: scaleY(1.1);
+        }
+    }
+    
+    
+       .glass{
+        background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.1px);
+    -webkit-backdrop-filter: blur(2.1px);
+    border: 1px solid rgba(255, 255, 255, 0.19);
+    margin-top: 70px;
+    width: 100%;
+    position:absolute;
+    }
+
+}
+
+
+@media only screen and(min-width:900px){
+    
+body{
+    
+    background-image: url("D:/projectsBSCS 1/images/project pics/paris2.png");
+}
+.one{
+  position: absolute;
+}
+.listitem{
+    display: inline-block;
+    list-style: none;
+   margin-right: 6px;
+   
+}
+.listitem  a{
+    text-decoration: none;
+    color: white;
+
+}
+.listitem  a:hover{
+    display: inline-block;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    background-color: #669bbc;
+}
+
+h1{
+    color:#669bbc;
+    
+   font-family: 'Times New Roman', Times, serif;
+   font-size :85px;
+   text-align:left;
+   margin-left: 20px; 
+   margin-top: 250px;
+   margin-bottom: 5px;
+   animation-name: main;
+   animation-duration: 2s;
+   animation-delay: 1s;
+   animation-iteration-count: infinite;
+}
+@keyframes main {
+    from{
+        transition: trasnform;
+        transition-delay:ease-in-out ;
+    }
+    to{
+        transform: scaleY(1.1);
+    }
+}
+   h2{
+    color: #fdf0d5;
+    font-family: 'Times New Roman', Times, serif;
+    font-size :75px;
+    text-align:left;
+    margin-top: 0px;
+    margin-left: 80px; 
+    animation-name: main;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+   }
+   @keyframes main {
+    from{
+        transition: trasnform;
+        transition-delay:ease-in-out ;
+    }
+    to{
+        transform: scaleY(1.1);
+    }
+}
+
+
+   .glass{
+    background: rgba(255, 255, 255, 0.02);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.1px);
+-webkit-backdrop-filter: blur(2.1px);
+border: 1px solid rgba(255, 255, 255, 0.19);
+margin-top: 70px;
+width: 100%;
+position:absolute;
+}
+
+
+
+}
+
+
+
+
+
+
+
